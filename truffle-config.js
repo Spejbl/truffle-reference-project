@@ -7,7 +7,7 @@ const rinkebySuperProvider = new ManualSignProvider({
   token: process.env.DEPLOY_TOKEN,
   from: '0xEA6630F5bfA193f76cfc5F530648061b070e7DAd', 
   endpoint: 'https://rinkeby.infura.io/v3/14a9bebf5c374938b2476abe29ca5564',
-  networkId: '4',//*///
+  networkId: '4',//*/////
 });
 
 module.exports = {
