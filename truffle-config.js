@@ -3,8 +3,8 @@ const { ManualSignProvider } = require("super-web3-provider");
 
 // MM signing enabled networks
 const rinkebySuperProvider = new ManualSignProvider({ 
-  deploymentSpaceId: process.env.DEPLOYMENT_SPACE_ID,
-  token: process.env.DEPLOY_TOKEN,
+  deploymentSpaceId: '5e0ef493e6b4a236ba99e54d',
+  token: 'tlRBM4W5Gr1Lk0pnYlGN8+S4XOYOF7ZFf9mS5m7nEb2i/flOmSLrcHwA',
   from: '0xEA6630F5bfA193f76cfc5F530648061b070e7DAd', 
   endpoint: 'https://rinkeby.infura.io/v3/14a9bebf5c374938b2476abe29ca5564',
   networkId: '4',//*//////
