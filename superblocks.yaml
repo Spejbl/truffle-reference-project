@@ -25,7 +25,7 @@ stages:
   - build_and_test:
       jobs: 
         - build
-        - test
+        # - test
   - deploy:
       jobs:
         - deploy_rinkeby_metamask:
