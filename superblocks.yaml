@@ -6,11 +6,11 @@ jobs:
         - npm install
         - npx truffle compile
 
-  test:
-    image: node:12
-    script:
-        - npm install
-        - npx truffle test
+  # test:
+  #   image: node:12
+  #   script:
+  #       - npm install
+  #       - npx truffle test
 
   deploy_rinkeby_metamask:
     image: node:12
