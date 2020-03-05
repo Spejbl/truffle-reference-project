@@ -3,8 +3,14 @@ const { ManualSignProvider } = require("super-web3-provider");
 
 // MM signing enabled networks
 const rinkebySuperProvider = new ManualSignProvider({ 
-  projectId: '5dede023ca4b76333423a511',
-  token: 'BrjB+ZVe/Y1qbUFvN4tqyEUWwfDbeFk+H/B2D8UQIFKeKZSQay7sCYyA',
+  // LOCAL
+  // projectId: '5dede023ca4b76333423a511',
+  // token: 'BrjB+ZVe/Y1qbUFvN4tqyEUWwfDbeFk+H/B2D8UQIFKeKZSQay7sCYyA',
+  
+  // DEVELOP
+  projectId: '5e16cbb0cd39c500115a5b87',
+  token: 'wtoygOBBq4d8z1Y2Y7v97c4RBlw83UHo0YWwc47eWQwzpycTUv+zzbCc',
+  
   from: '0x62B3571e172eFBB939959e858D5ED65181fFD424', 
   endpoint: 'https://rinkeby.infura.io/v3/14a9bebf5c374938b2476abe29ca5564',
   networkId: '4',//*//////
