@@ -12,7 +12,7 @@ const rinkebySuperProvider = new ManualSignProvider({
 });
 
 module.exports = {
-  plugins: ["truffle-security", "save-artifacts"],
+  plugins: ["truffle-security", "super-artifacts"],
 
   // See <http://truffleframework.com/docs/advanced/configuration>
   // to customize your Truffle configuration!
