@@ -18,7 +18,7 @@ jobs:
         name: ethereum/deploy
     script:
         - npm install
-        - LOCAL=TRUE npx truffle migrate --network rinkeby_metamask --reset
+        - DEVELOP=TRUE npx truffle migrate --network rinkeby_metamask --reset
 
         
 stages:
