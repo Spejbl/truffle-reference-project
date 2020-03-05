@@ -3,15 +3,16 @@ const { ManualSignProvider } = require("super-web3-provider");
 
 // MM signing enabled networks
 const rinkebySuperProvider = new ManualSignProvider({ 
-  deploymentSpaceId: '5e0ef493e6b4a236ba99e54d',
-  token: 'tlRBM4W5Gr1Lk0pnYlGN8+S4XOYOF7ZFf9mS5m7nEb2i/flOmSLrcHwA',
-  from: '0xEA6630F5bfA193f76cfc5F530648061b070e7DAd', 
+  projectId: '5dede023ca4b76333423a511',
+  token: 'BrjB+ZVe/Y1qbUFvN4tqyEUWwfDbeFk+H/B2D8UQIFKeKZSQay7sCYyA',
+  from: '0x62B3571e172eFBB939959e858D5ED65181fFD424', 
   endpoint: 'https://rinkeby.infura.io/v3/14a9bebf5c374938b2476abe29ca5564',
   networkId: '4',//*//////
+  saveArtifacts: 'true'
 });
 
 module.exports = {
-  plugins: ["truffle-security"],
+  plugins: ["truffle-security", "save-artifacts"],
 
   // See <http://truffleframework.com/docs/advanced/configuration>
   // to customize your Truffle configuration!
