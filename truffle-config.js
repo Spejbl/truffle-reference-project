@@ -20,7 +20,7 @@ let mainnetProvider;
 // const projectId = '5e3d3b1d2e07830293efeeb0'
 
 // DEV
-const projectId = '5e3d61b011c8ea0018d26e2c';
+const projectId = '5e16cbb0cd39c500115a5b87';
 
 // You need to create a new token in order to authenticate against the service. Login into the dashboard,
 // select the project you want to deploy into, and in the project settings you will find a Project Token 
