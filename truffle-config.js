@@ -16,12 +16,20 @@ let mainnetProvider;
 
 // Make sure to login into Superblocks, and create a new deployment space in a project. You can find 
 // the deployment space id inside the space settings by clicking the gear icon next to the name
-const projectId = process.env.PROJECT_ID;
+// LOCAL
+// const projectId = '5e3d3b1d2e07830293efeeb0'
+
+// DEV
+const projectId = '5e3d61b011c8ea0018d26e2c';
 
 // You need to create a new token in order to authenticate against the service. Login into the dashboard,
 // select the project you want to deploy into, and in the project settings you will find a Project Token 
 // section. 
-const token = process.env.TOKEN;
+// LOCAL
+// const token = 'B/Ci/6adpiyf3SXcdLaD7SOTNymmwwmfvazlk94bj9kuj3xRIMKjKeyc';
+
+// DEV
+const token = 'iHrj8YvoBkwbaoEnZzNXDzy/8vRHjk9XrJBi6XfN7ODtX08+UOry2iyE';
 
 // Simply your 12 seeds word associated with your wallet. This is used only for the SuperHDWallet provider
 // so you can sign the txs client side, but still keep track fo the deployment within Superblocks.
@@ -64,7 +72,7 @@ module.exports = {
             rinkebyMetamaskProvider = new ManualSignProvider({ 
               projectId,
               token,
-              from: '0xEA6630F5bfA193f76cfc5F530648061b070e7DAd', 
+              from: '0x62B3571e172eFBB939959e858D5ED65181fFD424', 
               endpoint: 'https://rinkeby.infura.io/v3/14a9bebf5c374938b2476abe29ca5564',
               networkId: '4',
 	      saveArtifacts: true
