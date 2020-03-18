@@ -3,6 +3,7 @@ jobs:
   build:
     image: node:12
     script:
+        - asdasdasd
         - npm install
         - npx truffle compile
 
