@@ -3,7 +3,6 @@ jobs:
   build:
     image: node:12
     script:
-        - asdasdasd
         - npm install
         - npx truffle compile
 
@@ -18,7 +17,6 @@ jobs:
     type:
         name: ethereum/deploy
     script:
-        - echo "TEST"
         - npm install
         - DEVELOP=TRUE npx truffle migrate --network rinkeby_metamask --reset
 
