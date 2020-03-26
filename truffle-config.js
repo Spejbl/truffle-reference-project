@@ -9,7 +9,7 @@ const rinkebySuperProvider = new ManualSignProvider({
   
   // DEVELOP
   projectId: '5e16cbb0cd39c500115a5b87',
-  token: 'wtoygOBBq4d8z1Y2Y7v97c4RBlw83UHo0YWwc47eWQwzpycTUv+zzbCc',
+  token: 'h6GuPoCriwhhbdtEAFuJCxJJ3b7LGRLqOMnnpbOMFY5bmJ1cvMwgpiwV',
   
   from: '0x62B3571e172eFBB939959e858D5ED65181fFD424', 
   endpoint: 'https://rinkeby.infura.io/v3/14a9bebf5c374938b2476abe29ca5564',
